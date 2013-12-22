@@ -4,4 +4,6 @@ Cakesofwrath::Application.routes.draw do
 
   root 'welcome#index'
 
+  post '/signup', to: 'welcome#signup'
+
 end
